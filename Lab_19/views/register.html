@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+
+</head>
+<body>
+
+
+<form action="/register" method="post">
+    <div class="container">
+        <h1>Register</h1>
+
+        <label>
+            <b>First Name</b>
+            <input type="text" placeholder="Enter First Name" name="firstName" required>
+        </label>
+
+        <label>
+            <b>Last Name</b>
+            <input type="text" placeholder="Enter Last Name" name="lastName" required>
+        </label>
+
+        <button type="submit" class="registerbtn">Register</button>
+    </div>
+
+    <div class="container signin">
+        <p>Already have an account? <a href="/login">Sign in</a>.</p>
+    </div>
+</form>
+
+</body>
+</html>
